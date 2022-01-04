@@ -19,7 +19,7 @@ echo " ----------------------------------------------------"
 echo""
 echo " Press any key to begin"
 while [ true ] ; do
-	read -t 3 -n 1
+	read -n 1
 	if [ $? = 0 ] ; then
 		echo $' Program running (press any key to stop)...'
 		SECONDS=0
