@@ -1,4 +1,5 @@
 # Autoclicker
+![](https://user-images.githubusercontent.com/91064070/148105124-8de21dc0-8bfc-4cea-815b-50ca2cee771c.png)
 
 A shell script that uses [xdotool](https://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html) to simulate mouse activity to stay logged on your computer or communication applications (avoiding getting AFK).
 
