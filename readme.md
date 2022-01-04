@@ -1,5 +1,5 @@
 # Autoclicker
-![](https://user-images.githubusercontent.com/91064070/148109999-ce50924b-fc6d-4112-b786-84c456e4fd8b.png)
+![](https://user-images.githubusercontent.com/91064070/148111175-52882fbb-7e57-43f4-b69d-228738028c8a.png)
 
 A shell script that uses [xdotool](https://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html) to simulate mouse activity. It can be useful to automatise some tasks or to stay logged in on your computer or communication applications (avoiding getting AFK).
 
