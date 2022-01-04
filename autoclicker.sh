@@ -6,7 +6,7 @@ echo " /  _  \ |_| | || (_) / /___| |_| (__|   <  __/ |"
 echo " \_/ \_/\__,_|\__\___/\____/|___|\___|_|\_\___|_|"
 echo ""
 echo " ----------------------------------------------------"
-echo "           -= A tool to keep you logged =-"
+echo "         -= A tool to keep you logged in =-"
 echo " ----------------------------------------------------"
 echo "  Autoclicker will simulate a mouse click every 0.5s"
 echo "    so make sure to put your mouse pointer on the"
@@ -37,14 +37,17 @@ while [ true ] ; do
 			let "minutes=(SECONDS%3600)/60"
 			let "seconds=(SECONDS%3600)%60"
 			echo " Program stopped by user"
+			echo ""
 			echo "Time elapsed : $hours hour(s), $minutes minute(s) and $seconds second(s)"
 		elif (( $SECONDS > 60 )) ; then
 			let "minutes=(SECONDS%3600)/60"
 			let "seconds=(SECONDS%3600)%60"
 			echo " Program stopped by user"
+			echo ""
 			echo " Time elapsed : $minutes minute(s) and $seconds second(s)"
 		else
 			echo " Program stopped by user"
+			echo ""
 			echo " Time elapsed : $SECONDS second(s)"
 			exit ;
 		fi
