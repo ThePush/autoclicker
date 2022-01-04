@@ -12,4 +12,4 @@ Install xdotool with ```sudo apt install xdotool```
 
 Then execute the program with ```./autoclicker.sh```
 
-Press any key to begin session and any key to stop it.
+Press any key to begin a session and any key to stop it.
