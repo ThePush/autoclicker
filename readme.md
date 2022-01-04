@@ -1,7 +1,6 @@
 # Autoclicker
-![](https://user-images.githubusercontent.com/91064070/148106300-91d38df6-8f9c-47dc-9e2b-b8a084009722.png)
-
-A shell script that uses [xdotool](https://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html) to simulate mouse activity to stay logged on your computer or communication applications (avoiding getting AFK).
+![](https://user-images.githubusercontent.com/91064070/148109999-ce50924b-fc6d-4112-b786-84c456e4fd8b.png)
+A shell script that uses [xdotool](https://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html) to simulate mouse activity. It can be useful to automatise some tasks or to stay logged on your computer or communication applications (avoiding getting AFK).
 
 It stimulates a mouse click every 0.5s so be careful where your mouse pointer is when you begin the session. This can be easily changed by modifying line #26 ```sleep 0.5```.
 
