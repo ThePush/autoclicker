@@ -7,4 +7,5 @@ It stimulates a mouse click every 0.5s so be careful where your mouse pointer is
 
 When closing it, the program will display the time elapsed since the beginning of the session.
 
+#
 Install xdotool with ```sudo apt install xdotool``` then execute the program with ```./autoclicker.sh```. Press any key to begin session and any key to stop it.
