@@ -40,12 +40,14 @@ while [ true ] ; do
 			echo " Program stopped by user"
 			echo ""
 			echo "Time elapsed : $hours hour(s), $minutes minute(s) and $seconds second(s)"
+			exit ;
 		elif (( $SECONDS > 60 )) ; then
 			let "minutes=(SECONDS%3600)/60"
 			let "seconds=(SECONDS%3600)%60"
 			echo " Program stopped by user"
 			echo ""
 			echo " Time elapsed : $minutes minute(s) and $seconds second(s)"
+			exit ;
 		else
 			echo " Program stopped by user"
 			echo ""
