@@ -1,12 +1,14 @@
 #bin/bash
-echo "     _         _          ___ _ _      _"
+BLU='\033[0;34m'
+NC='\033[0m'
+echo -e "${BLU}     _         _          ___ _ _      _"
 echo "    /_\  _   _| |_ ___   / __\ (_) ___| | _____ _ __"
 echo "   //_\\\| | | | __/ _ \ / /  | | |/ __| |/ / _ \ '__|"
 echo "  /  _  \ |_| | || (_) / /___| |_| (__|   <  __/ |"
-echo "  \_/ \_/\__,_|\__\___/\____/|___|\___|_|\_\___|_|"
+echo -e "  \_/ \_/\__,_|\__\___/\____/|___|\___|_|\_\___|_|${NC}"
 echo ""
 echo " ----------------------------------------------------"
-echo "       -= A tool to simulate mouse activity =-"
+echo -e "       -= ${BLU}A tool to simulate mouse activity${NC} =-"
 echo " ----------------------------------------------------"
 echo "  Autoclicker will simulate a mouse click every 0.5s"
 echo "    so make sure to put your mouse pointer where"
