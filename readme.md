@@ -13,4 +13,4 @@ When closing it, the program will display the time elapsed since the beginning o
 
 * Then execute the program with ```./autoclicker.sh```
 
-* Press any key to begin a session and any key to stop it.
+* Press any key to begin a session and any key to stop it
